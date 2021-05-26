@@ -1,0 +1,29 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDo {
+public static void main(String[] args) {
+	
+	/*
+	 * Missão 1
+	 * O jogador 1 digita um número inteiro
+	 * a partir dai o Jogador 2 deve advinhar o número
+	 * somente quando ele acertar deverá aparecer a mensagem 
+	 * "Parabéns, você acertou"
+	 * 
+	 */
+do {
+	int jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor:  "));
+	int jogador2 = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor:  "));
+	
+}while (JOptionPane.showConfirmDialog(null,"Continuar?", "Titulo", JOptionPane.YES_NO_OPTION)==0);
+	
+	
+	
+	
+	
+	
+	
+}
+}

@@ -1,0 +1,40 @@
+package variaveis;
+
+public class TiposDados {
+	//main () é o start point de uma aplicação JAVA
+	// chave de ignição do carro
+public static void main(String[] args) {
+//Sintaxe: <Tipo de dado> <nome da viarável> = <dado>;
+	String nome = "1berto";
+	int idade = 45;
+	double altura = 1.74;
+	
+	System.out.println("Nome:"+nome);
+	System.out.println("Idade:"+idade);
+	System.out.println("Altura:"+altura);
+	
+	
+	/* 
+	 * Alfanumérico: é um texto, parte de um texto ou um número
+	 * que não será utilizado em operaçõe matemáticas
+	 * Em Javanês = String
+	 * 
+	 * Numérico: representa um dado que PODE ser utilizado em 
+	 * expressões matemáticas
+	 * CEP (Aplicação dos correios)
+	 * CPF (Aplicação da Receita Federal)
+	 * Funcional (entre colaboradores do Itaú)
+	 * RM (entre alunos da faculdade)
+	 * Em Javanês = 
+	 * - int - números inteiros
+	 * - double - números reais (com casas decimais)
+	 */
+	
+	
+	
+	
+	/* Deixar as chaves embaixo
+	 * 
+	 */
+}
+}

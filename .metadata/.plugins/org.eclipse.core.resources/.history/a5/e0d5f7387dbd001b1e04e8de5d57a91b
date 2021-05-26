@@ -1,0 +1,29 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+/*
+ * 		 * Exercicio 1:
+		 * Solicite dois valores e um operador matemático 
+		 * (+, -, / ou *)
+		 * Dependendendo do operador que foi digitado realize o calculo
+		 * e exiba o resultado
+		 * Dica.: Se utilizar String a comparação de String deve ser:
+		 * if (variavel.equals("valorasercomparado")){
+ */
+
+public class Exercicio1 {
+public static void main(String[] args) {
+	
+	float valor1 = Float.parseFloat(JOptionPane.showInputDialog("Valor 1: "));
+	float valor2 = Float.parseFloat(JOptionPane.showInputDialog("Valor 2: "));
+	String oper = JOptionPane.showInputDialog("Operador: ");
+	if (oper=="+") {
+		System.out.println(valor1 + valor2);
+	}
+	
+	
+	
+} 
+
+}

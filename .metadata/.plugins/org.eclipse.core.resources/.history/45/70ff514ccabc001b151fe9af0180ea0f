@@ -1,0 +1,21 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class CaluculoProduto {
+public static void main(String[] args) {
+	
+	String nome =JOptionPane.showInputDialog("Digite o nome do produto");
+	int qtde = Integer.parseInt(JOptionPane.showInputDialog("Quantidade do Produto:"));
+	double vunit = Double.parseDouble(JOptionPane.showInputDialog("Valor Unitário"));
+	double vtot = qtde * vunit;
+	double vimp = (vtot * 17)/100;
+	
+	System.out.println("Nome do Produto:"+nome);
+	System.out.println("Valor Total:"+vtot);
+	System.out.println("Imposto:"+vimp);
+
+	
+	
+}
+}

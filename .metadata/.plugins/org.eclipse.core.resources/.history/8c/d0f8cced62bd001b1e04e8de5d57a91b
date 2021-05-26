@@ -1,0 +1,8 @@
+package repeticao;
+
+public class Snippet {
+	public static void main(String[] args) {
+		System.out.println("Do 2 ao ate o quinto caracter: "+email.substring(1,5));
+	}
+}
+

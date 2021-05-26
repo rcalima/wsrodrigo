@@ -1,0 +1,59 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+/*
+ * 		 * Exercicio 3:
+		 * Receba o valor do salário bruto, o nome de um colaborador e 
+		 * a qtde de faltas.
+		 * Se não houver faltas o salario bruto receberá um aumento de 2%.
+		 * Calcule o valor do INSS sobre o salário bruto.
+		 * Exiba no final o salário bruto, e o salário liquido (retirando
+		 * o INSS e 8% do FGTS)
+ */
+
+
+
+public class Exercicio3 {
+public static void main(String[] args) {
+	
+	String nome = JOptionPane.showInputDialog("Nome do colaborador: ").toUpperCase();
+	float salb = Float.parseFloat(JOptionPane.showInputDialog("Digite o salário Bruto: "));
+	byte faltas = Byte.parseByte(JOptionPane.showInputDialog("Digite o número de Faltas: "));
+	if (faltas==0) {
+		salb = salb* (float)1.02;		
+	}
+	float inss=0; //criou uma variavel
+	if (salb<=1100){
+		inss = salb * (float) 0.07;
+	}	else if (salb>1100 && salb<=2203.48) {
+		inss = salb * (float) 0.09;	
+		}else if  (salb>2203.48 && salb<=3305.22) {
+			inss = salb * (float) 0.12;	
+		}else inss = salb * (float) 0.14;	
+	
+		System.out.println("Salário Bruto:  "+ salb);
+	s	System.out.println("Salário Líquido: " +(Salb - inss - salb*0.08));
+		
+	}
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}
